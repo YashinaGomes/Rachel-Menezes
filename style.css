@@ -167,7 +167,7 @@ p {
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    background-image: linear-gradient(60deg, #f0dab9be 0%, #f4f2daaf 100%);
+    background-image: linear-gradient(60deg, #e6e3dfbe 0%, #e8e8e4af 100%);
     color: rgb(10, 4, 4);
     
 }
@@ -213,6 +213,7 @@ p {
     height: 100px;
     margin-top: 3px;
     
+    
 }
 
 /* keyframes */
@@ -242,7 +243,7 @@ p {
 }
 
 /* Media Query */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 600px) {
     #portfolio .project-item {
         flex-direction: row; 
         height: 300px;
@@ -259,6 +260,7 @@ p {
     #portfolio .project-item:nth-child(even) {
         flex-direction: row-reverse;
     }
+    
 
 
 }
